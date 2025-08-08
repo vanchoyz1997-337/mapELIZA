@@ -1,0 +1,16 @@
+{
+  "appId": "com.building.planner",
+  "productName": "BuildingPlanner",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "web-build/**/*",
+    "main.js",
+    "preload.js"
+  ],
+  "win": {
+    "target": "nsis",
+    "icon": "icon.ico"
+  }
+}
